@@ -1,0 +1,149 @@
+body {
+  background-color: #F4EDEA;
+  background-image: url(images/magicpattern-bevXKKL7E9g-unsplash.jpg);
+  z-index: 2;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Comfortaa', cursive;
+  color: #2D2327;
+  line-height: 28px;
+  text-align: center;
+  margin: 0px;
+}
+
+/* Profile Cards */
+.container {
+  margin: 25px 300px;
+}
+
+.profil {
+  margin: 25px;
+  background-color: #ffffff;
+  padding: 40px;
+  box-shadow: 0px 0px 10px #b6b8c0;
+  border-radius: 10px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transition: 0.4s ease
+}
+
+img:hover {
+  transform: scale(1.05)
+}
+
+h1 {
+  font-family: 'Archivo Black', sans-serif;
+  color: #62466B;
+}
+
+h2 {
+  font-size: 24px;
+  color: #62466B;
+  background: rgba(0, 0, 0, 0) -webkit-gradient-(linear,left top,right top,from(#90f3b3),color-stop(#90e9f3),color-stop(#cc90f3),color-stop(#f390d1),color-stop(#f39a90),color-stop(#f3e590),to(#b8f390)) repeat scroll 0% 0%/200% 200%;
+  background: rgba(0, 0, 0, 0) linear-gradient(90deg, #90f3b3, #90e9f3, #909ff3, #cc90f3, #f390d1, #f39a90, #f3e590, #b8f390) repeat scroll 0% 0%/200% 200%;
+  background-clip: border-box;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #2D2327
+}
+
+.buttons a {
+  background-color: #62466B;
+  color: #F4EDEA;
+  border-radius: 30px;
+  padding: 10px;
+  line-height: 60px;
+}
+
+.buttons li {
+  padding: 10px;
+  align-self: center;
+  display: inline;
+}
+
+.arrow p{
+  padding-top: 30px;
+  color: white;
+}
+
+.arrow i{
+  color: white;
+  line-height: 10px;
+  font-size: 48px;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #D8C8FF;
+  opacity: 0.5;
+  padding: 50px;
+  box-shadow: 0px 0px 5px #D8C8FF;
+  z-index: 2;
+}
+
+.icon-social a{
+  padding: 10px;
+  align-self: center;
+  color: #2D2327;
+}
+
+.icon-social a :hover {
+  color: #62466B;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.icon-social li {
+  font-size: 28px;
+  display: inline;
+  padding: 10px;
+  margin: 0px 10px;
+}
+
+/* Responsive Website */
+
+@media (max-width: 960px) {
+  .profil {
+    width: 300px;
+  }
+  .container {
+    display: grid;
+  }
+}
+
+@media (max-width: 720px) {
+  .profil {
+    width: 200px;
+  }
+  .container {
+    display: grid;
+  }
+}
+
+@media (max-width: 540px) {
+  .profil {
+    width: 80px;
+  }
+  .container {
+    display: grid;
+  }
+}
